@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>初级训练计划</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="center">初级训练计划</h1>
+    <div class="center table1">
+        <table class="tablewidth">
+            <thead>
+                <tr>
+                    <th class="table2">训练期1<br>星期一</th>
+                    <th class="table2">训练期2<br>星期二</th>
+                    <th class="table2">训练期3<br>星期三</th>
+                    <th class="table2">训练期4<br>星期四</th>
+                    <th class="table2">训练期5<br>星期五</th>
+                    <th class="table3">训练期6<br>星期六</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="table4">胸部<br>背部</td>
+                    <td class="table4">肩部<br>上臂<br>前臂</td>
+                    <td class="table4">大腿<br>小腿<br>下背</td>
+                    <td class="table4">胸部<br>背部</td>
+                    <td class="table4">肩部<br>上臂<br>前臂</td>
+                    <td>大腿<br>小腿<br>下背</td>
+                </tr>
+                <tr class="left">
+                    <td colspan="6" class="table5">每天：腹部</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h4>训练期1 （星期一和星期四）</h4>
+    <p><strong>胸部</strong></p>
+    <p>仰卧推举<br>上斜推举<br>仰卧上拉</p>
+    <p><strong>背部</strong></p>
+    <p>引体向上（每次训练尽可能多做，知道你能做总共50次反复）<br>俯身划船<br>硬拉，3组，分别为10/6/4次反复，练到力竭（强力练习）</p>
+    <p><strong>腹部</strong></p>
+    <p>卷腹，5组，每组25次反复</p>
+
+    <h4>训练期2 （星期二和星期五）</h4>
+    <p><strong>肩部</strong></p>
+    <p>提铃上举<br>哑铃侧平举<br>大重量的直立划船，3组，分别为10/6/4次反复，练到力竭（强力练习）<br>借力推举，3组，分别为10/6/4次反复，练到力竭（强力练习）</p>
+    <p><strong>上臂</strong></p>
+    <p>站姿杠铃弯举<br>坐姿哑铃弯举<br>窄握推举<br>站姿杠铃臂屈伸</p>
+    <p><strong>前臂</strong></p>
+    <p>腕弯举<br>反握腕弯举</p>
+    <p><strong>腹部</strong></p>
+    <p>卷腹，5组，每组25次反复</p>
+
+    <h4>训练期3 （星期三和星期六）</h4>
+    <p><strong>大腿</strong></p>
+    <p>提铃上举<br>弓步<br>腿弯举</p>
+    <p><strong>小腿</strong></p>
+    <p>站姿提踵，5组，每组15次反复</p>
+    <p><strong>下背</strong></p>
+    <p>直腿硬拉，3组，分别为10、6、4次反复，练到力竭（强力练习）<br>负重体前屈，3组，分别为10、6、4次反复，练到力竭（强力练习）<br>（注意：虽然这些强力练习动作直接作用在下背，但同样也锻炼到股二头肌和斜方肌，并可以帮助增强你的整体力量。）</p>
+    <p><strong>腹部</strong></p>
+    <p>卷腹，5组，每组25次反复</p>
+    <br>
+    <br>
+    <br>
+    <h3>用户登录</h3>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="用户名" required>
+        <input type="password" name="password" placeholder="密码" required>
+        <button>登录啦！</button>
+        <button type="reset">重置</button>
+    </form>
+    <p>还没有加入？立即登记注册吧!</p>
+    <form action="/members/new" method="post">
+        <input name="fiestname" required maxlength="20" placeholder="名" type="text">
+        <input name="lastname" required maxlength="20" placeholder="姓" type="text">
+        <label><input type="radio" name="gender" value="1">MALE</label>
+        <label><input type="radio" name="gender" value="0">FEMALE</label><br>
+        <label for="birthday">生日</label>
+        <input id="birthday" name="birthday" required type="date">
+        <label><input type="checkbox" checked>发送最新活动邮件到此邮箱</label><br>
+        
+        <label>
+            照片<input name="picture" type="file">
+        </label><br>
+
+        <button type="submit">提交</button>
+    </form>
+</body>
+
+</html>
