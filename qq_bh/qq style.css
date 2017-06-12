@@ -1,0 +1,101 @@
+* {
+    font-size: 16px;
+}
+
+html {
+    height: 500px;
+}
+
+body {
+    width: 360px;
+    height: 100%;
+    background-color: #EEE;
+    margin: 0 auto;
+}
+
+.bj1 {
+    width: 320px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.bj2 {
+    width: 320px;
+    height: 416px;
+    padding-top: 30px;
+}
+
+.logo {
+    background: url(image/shipei_logo.png) no-repeat center center;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.inputstyle {
+    width: 273px;
+    height: 44px;
+    margin: auto auto auto 15px;
+}
+
+input {
+    width: 273px;
+    height: 44px;
+    padding-left: 15px;
+    margin: auto;
+    border: 0;
+    display: block;
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+.loginbutton {
+    width: 290px;
+    height: 44px;
+    margin: 15px auto auto auto;
+    background: #146fdf;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+.loginbutton2 {
+    border: 1px solid #9abbe3;
+    width: 290px;
+    height: 42px;
+    margin: 15px auto auto auto;
+    border-radius: 4px;
+    line-height: 44px;
+    background-color: #e7e7e7; 
+    color: #146fdf;
+}
+
+.wangjimima {
+    width: 290px;
+    height: 44px;
+    margin: 15px auto auto auto;
+}
+
+.left {
+    float: left;
+    padding: 15px 10px;
+    margin: auto auto auto -10px;
+    font-size: 14px;
+    color: #246183;
+}
+
+.right {
+    float: right;
+    padding: 15px 10px;
+    margin: auto -10px auto auto;
+    font-size: 14px;
+    color: #246183;
+}
