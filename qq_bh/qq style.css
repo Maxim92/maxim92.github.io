@@ -37,45 +37,64 @@ body {
 }
 
 .inputstyle {
+    width: 288px;
+    height: 88px;
+    margin: auto;
+    border-radius: 4px;
+    background: white;
+}
+
+.inputstyle1 {
     width: 273px;
     height: 44px;
-    margin: auto auto auto 15px;
+    border-top: 1px solid #eaeaea;
 }
 
 input {
     width: 273px;
     height: 44px;
-    padding-left: 15px;
+    padding: 0 0 0 15px;
     margin: auto;
     border: 0;
     display: block;
     font-size: 16px;
-    color: gray;
+    color: black;
 }
 
+.input1 {
+    border-bottom: 1px solid grey;
+}
 
+input::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
 
 .loginbutton {
     width: 290px;
     height: 44px;
-    margin: 15px auto auto auto;
+    margin: auto;
+    margin-top: 15px;
     background: #146fdf;
     border: 0;
     border-radius: 4px;
     color: white;
     font-size: 16px;
     line-height: 44px;
+    display: block;
 }
 
 .loginbutton2 {
+    width: 292px;
+    height: 44px;
+    margin: 15px 15px 0 15px ;
+    
     border: 1px solid #9abbe3;
-    width: 290px;
-    height: 42px;
-    margin: 15px auto auto auto;
     border-radius: 4px;
     line-height: 44px;
     background-color: #e7e7e7; 
     color: #146fdf;
+    display: block;
+
 }
 
 .wangjimima {
@@ -90,6 +109,7 @@ input {
     margin: auto auto auto -10px;
     font-size: 14px;
     color: #246183;
+    line-height: 14px;
 }
 
 .right {
@@ -98,4 +118,5 @@ input {
     margin: auto -10px auto auto;
     font-size: 14px;
     color: #246183;
+    line-height: 14px;
 }
