@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.daohang {
+    margin: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lv, .miami, .ny {
+    flex: 1;
+    min-width: 300px;
+    height: 50px;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
