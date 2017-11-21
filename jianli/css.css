@@ -1,0 +1,53 @@
+body {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.icon {
+    font-size: 120%;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*
+.image {
+    width: 40%;
+    min-width: 300px;
+}
+*/
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.project {
+    margin-top: 30px;
+    min-width: 100px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.image {
+    width: 80%;
+    border-bottom: 1px solid black;
+}
