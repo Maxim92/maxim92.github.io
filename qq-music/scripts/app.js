@@ -7,6 +7,8 @@
     function render(json) {
         renderSlider(json.data.slider)
         renderRadios(json.data.radioList)
+
+        lazyload(document.queryCommandEnabled('.lazyload'))
     }
 
     function renderSlider(slides) {
