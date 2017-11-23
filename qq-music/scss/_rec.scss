@@ -10,7 +10,22 @@
         flex-wrap: wrap;
         .list-item {
             flex: 1;
-            flex-basis: 50%;
+            &:first-child {
+                padding-right: 8px;
+            }
+            .icon {
+                background-repeat: no-repeat;
+                background-size: 24px 60px;
+                background-image: url('../images/icon-play.png');
+            }
+            .icon-play {
+                height: 24px;
+                bottom: 5px;
+                right: 5px;
+                width: 24px;
+                position: absolute;
+                background-position: 0 0;
+            }
             img {
                 width: 100%;
                 display: block;
