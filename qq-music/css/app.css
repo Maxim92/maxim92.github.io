@@ -24,9 +24,16 @@ ul, ol {
     flex-wrap: wrap; }
     .radios .list .list-item {
       flex: 1;
-      position: relative; }
+      font-size: 14px;
+      background: #fff; }
       .radios .list .list-item:first-child {
-        padding-right: 8px; }
+        margin-right: 8px; }
+      .radios .list .list-item .list-media {
+        position: relative; }
+      .radios .list .list-item .list-title {
+        height: 36px;
+        margin-top: 7px;
+        padding: 0 7px 5px; }
       .radios .list .list-item .icon {
         background-repeat: no-repeat;
         background-size: 24px 60px;

@@ -10,9 +10,18 @@
         flex-wrap: wrap;
         .list-item {
             flex: 1;
-            position: relative;
+            font-size: 14px;
+            background: #fff;
             &:first-child {
-                padding-right: 8px;
+                margin-right: 8px;
+            }
+            .list-media {
+                position: relative;
+            }
+            .list-title {
+                height: 36px;
+                margin-top: 7px;
+                padding: 0 7px 5px;
             }
             .icon {
                 background-repeat: no-repeat;
