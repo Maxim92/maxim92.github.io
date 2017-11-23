@@ -5,14 +5,29 @@
         .then(render)
 
     function render(json) {
-        let slides = json.data.slider.map(slide => {
+        renderSlider(json.data.slider)
+        renderRadios(json.data.radioList)
+    }
+
+    function renderSlider(slides) {
+        slides = slider.map(slide => {
             return { link: slide.linkUrl, image: slide.picUrl }
         })
         new Slider({
             el: document.querySelector('#slider'),
-            slides: slides
+            slides
         })
     }
 
+    function renderRadios(radios) {
+        document.querySelector('.radios .list').innerHTML = radios.map(radio => 
+            `<div class="list-item">
+                <div class="list-media">
+                    <img src="${radio.picUrl}">
+                    <span class="icon icon-play"></span>
+                </div>
+                <div class="list-title">${radio.Ftitle}</div>
+            </div>`).join('')
+    }
 
 })()
