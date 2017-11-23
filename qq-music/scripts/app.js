@@ -1,7 +1,7 @@
 (function() {
     
     fetch('json/rec.json')
-        .then(tes => tes.json())
+        .then(res => res.json())
         .then(render)
 
     function render(json) {
