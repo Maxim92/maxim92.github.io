@@ -10,6 +10,7 @@
         flex-wrap: wrap;
         .list-item {
             flex: 1;
+            position: relative;
             &:first-child {
                 padding-right: 8px;
             }

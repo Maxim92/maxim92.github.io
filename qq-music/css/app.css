@@ -23,7 +23,8 @@ ul, ol {
     display: flex;
     flex-wrap: wrap; }
     .radios .list .list-item {
-      flex: 1; }
+      flex: 1;
+      position: relative; }
       .radios .list .list-item:first-child {
         padding-right: 8px; }
       .radios .list .list-item .icon {
