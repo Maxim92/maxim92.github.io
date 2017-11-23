@@ -1,0 +1,20 @@
+.radios {
+    margin: 14px 10px 1px;
+    .title {
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 11px;
+    }
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        .list-item {
+            flex: 1;
+            flex-basis: 50%;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}

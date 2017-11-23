@@ -13,6 +13,22 @@ ul, ol {
   padding: 0;
   list-style: none; }
 
+.radios {
+  margin: 14px 10px 1px; }
+  .radios .title {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 11px; }
+  .radios .list {
+    display: flex;
+    flex-wrap: wrap; }
+    .radios .list .list-item {
+      flex: 1;
+      flex-basis: 50%; }
+      .radios .list .list-item img {
+        width: 100%;
+        display: block; }
+
 #header {
   display: flex;
   align-items: center;
