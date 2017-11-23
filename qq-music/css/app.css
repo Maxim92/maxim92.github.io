@@ -4,8 +4,9 @@
 body {
   margin: 0; }
 
-h1 {
-  margin: 0; }
+h1, h2 {
+  margin: 0;
+  font-weight: normal; }
 
 ul, ol {
   margin: 0;
@@ -28,6 +29,7 @@ ul, ol {
   align-items: center; }
   .navbar .nav-list .nav-item {
     flex: 1;
+    cursor: pointer;
     position: relative;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
