@@ -1,0 +1,292 @@
+body {
+    background: grey;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    background: #b7b7b7;
+    margin: 0;
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.navbar {
+    background: yellow;
+    padding: 0 50px;
+    position: fixed;
+
+    width: 100%;
+}
+
+#nav1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0px 50px;
+}
+
+#navFont1 {
+    padding: 5px 0px 5px 0px;
+    font-size: 3rem;
+    color: white;
+    width: 60%;
+}
+
+.nav3 {
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+
+.nav2 {
+    color: gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 1rem;;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    float: left;
+}
+
+#nav4 {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    background: yellow;
+    margin: 0;
+}
+
+#nav41 {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.row {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 90px 20px 10px 20px;
+}
+
+#pic1 {
+    max-width: 300px;;
+}
+
+.rowHead {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.row2 {
+    background: white;
+    color: gray;
+    display: inherit;
+    padding-top: 40px;
+}
+
+#row2pic {
+    text-align: center;
+}
+
+.pic2 {
+    width: 45%;
+    margin: 5px 5px 5px 5px;
+}
+
+.row3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.putin {
+    display: block;
+    width: 40%;
+
+    
+}
+
+input, textarea {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 15px 0px 5px 0px;
+}
+
+
+.inp1 {
+    display: block;
+    width: 80%;
+    border-bottom: solid white 1px;;
+}
+
+.inp2 {
+    display: block;
+    width: 80%;
+    height: 100px;
+    border-bottom: solid white 1px;
+}
+
+.inputButton {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: gray;
+}
+
+.asap {
+    width: 40%;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #d6d6d6;
+    padding-bottom: 10px
+}
+
+.leftF1, .rightF1 {
+    width: 40%;
+    text-align: center;
+    color: gray;
+}
+
+.lf1h, .rf1h {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.rf1i {
+    font-size: 3rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rf1a {
+    width: 4rem;
+    text-align: center;
+
+    background: white;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.rf1a > a {
+    text-decoration: none;
+    color: unset;
+}
+
+.footer2 {
+    font-size: 1.5rem;
+    color: white;
+    background: rgb(99, 99, 7);
+    width: 100%;
+    text-align: center;
+}
+
+.footer2 > p {
+    margin: 10px 0;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        margin: 0;
+    }
+
+    #nav1 {
+        justify-content: flex-end;
+    }
+
+
+
+
+    .nav2 {
+        display: none;
+    }
+
+    .nav3 {
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+        margin-right: 0;
+        
+    }
+
+    #nav41 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav42 {
+        display: block;
+        margin: 0;
+    }
+
+    .row {
+        display: inherit;
+        text-align: center;
+        padding: 60px, 10px;
+        margin: 0;
+
+    }
+
+
+    #pic1 {
+        width: 100%;
+        min-width: 150px;
+        max-width: 300px;;
+    }
+
+    .pic2 {
+        width: 80%;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .putin, .asap {
+        width: 100%;
+    }
+
+    .inp1, .inp2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .asap {
+        text-align: start;
+    }
+
+    .footer1 {
+        flex-wrap: wrap;
+    }
+
+    .leftF1, .rightF1 {
+        width: 80%;
+    }
+}
+
